@@ -1,0 +1,118 @@
+body{
+     background-image: url("../images/bg.jpg");
+}
+#outer
+{
+    width: 1000px;
+    height: auto;
+    min-height: 1200px;
+    margin: 0 auto;
+}
+#header{
+    width: 1000px;
+    height: 150px;
+
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    background-color: wheat;
+}
+#title{
+    width: 850px;
+    height: 150px;
+    float: right;
+    background-color: navy;
+    line-height: 150px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+
+}
+/*==========menu start================*/
+#menu{
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+
+}
+#menu ul li a:hover{
+    color: red;
+    transition: 1s;
+}
+
+
+
+/*================== menu end =============*/
+
+#slider{
+    margin-top: 5px;
+    width: 1000px;
+    height: 250px;
+    background-color: green;
+}
+#main{
+    margin-top: 5px;
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+}
+#left{
+    width: 300px;
+    height: auto;
+    min-height: 600px;
+     background-color:darkgrey;
+    float: left;
+}
+#right{
+    width: 700px;
+    height: auto;
+    min-height: 600px;
+    height: auto;
+    float: right;
+}
+/*============ footer start ============*/
+#footer{
+    /*            background-color: black;*/
+    width: 1000px;
+    height: 130px;
+    margin-top: 5px;   
+}
+
+#lfooter{
+    width: 500px;
+    height: 130px;
+    font-size:40px;
+    text-align: center;
+    background-color: black;
+    line-height: 130px;
+    color: white;
+    float: left;
+}
+#rfooter{
+    width: 500px;
+    height: 130px;
+    font-size:40px;
+    text-align: center;
+    background-color: navy;
+    line-height: 130px;
+    color: white;
+    float: right;
+}
+/*============ footer end ============*/
